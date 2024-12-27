@@ -1,0 +1,1276 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  /* 10/16 * 100 = 62.5% */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Alegreya";
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+:root {
+  --primary-color: #c8191c;
+  --secondary-color: #ffffff;
+}
+/**************Header****************/
+header {
+  position: fixed;
+  top: 4rem;
+  width: 100%;
+  z-index: 9999;
+}
+header .nav-link {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: var(--secondary-color);
+  margin: 0 2.5rem;
+}
+/***************END*******************/
+
+/**************Hero******************/
+section#hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(#000000 80%, var(--primary-color) 200%);
+  z-index: 999;
+  border: none;
+}
+
+.hero-title {
+  padding-top: 36.1rem;
+  font-size: 13rem;
+  font-weight: bold;
+  text-align: center;
+  color: var(--secondary-color);
+}
+
+.hero-title .hero-about {
+  margin: 2.5rem auto;
+  font-size: 1.8rem;
+  width: 90.6rem;
+}
+
+.hero-title span {
+  color: var(--primary-color);
+}
+
+.hero-title .hero-btn {
+  height: 6.3rem;
+  width: 30rem;
+  inset: 0;
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+}
+
+section#hero::before {
+  content: "";
+  background-image: url(../image/hero-banner.png);
+  inset: 0;
+  background-size: 100% auto;
+  opacity: 0.2;
+  position: absolute;
+  background-repeat: no-repeat;
+}
+/***************END******************/
+
+.about-title {
+  font-weight: bold;
+  color: var(--primary-color);
+  font-size: 2.4rem;
+}
+
+.main-title {
+  margin-top: 1.8rem;
+  font-weight: bold;
+  color: var(--secondary-color);
+  font-size: 8.4rem;
+  line-height: 10rem;
+  width: 57rem;
+}
+
+.button {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  width: 30rem;
+  display: inline-block;
+  text-align: center;
+  padding: 1.35rem 0;
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+/***************About****************/
+section#about {
+  padding-top: 20rem;
+  background-image: linear-gradient(
+    0deg,
+    #000000 80%,
+    var(--primary-color) 200%
+  );
+  border: none;
+}
+.abt-img-row {
+  justify-content: space-between;
+  text-align: center;
+  row-gap: 5rem;
+}
+
+.abt-img-row h3 {
+  font-size: 5.4rem;
+  font-weight: bold;
+  color: var(--secondary-color);
+}
+
+.abt-details {
+  margin-top: 20rem;
+}
+
+.abt-details img {
+  object-fit: cover;
+  width: 100%;
+  height: 50.6rem;
+  padding-right: 11.5rem;
+  border-right: 2px white solid;
+}
+
+.abt-details .about-image-txt {
+  margin-top: 5rem;
+  height: 7.2rem;
+  max-width: 54.1rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: var(--secondary-color);
+}
+
+.abt-data {
+  padding-left: 11.5rem;
+}
+
+.abt-details .main-title {
+  margin-bottom: 12rem;
+}
+
+/***************END******************/
+/************Super imagine***********/
+#super-imagine {
+  padding-top: 20rem;
+  background-image: linear-gradient(#000000 80%, var(--primary-color) 200%);
+  border: none;
+}
+
+.super-header {
+  font-weight: bold;
+  font-size: 14rem;
+  color: var(--secondary-color);
+}
+
+.super-text {
+  font-size: 1.8rem;
+  color: var(--secondary-color);
+  display: block;
+  width: 48.5rem;
+  padding-top: 11.5rem;
+  height: 7.2rem;
+}
+
+.boodoo-img-div {
+  padding-left: 10rem;
+}
+
+.boodoo-team-img img {
+  object-fit: cover;
+  width: 22.4rem;
+  height: 33.5rem;
+  padding: 0;
+  margin: 0;
+}
+
+.boodoo-team-img {
+  padding-left: 7rem;
+}
+
+.boodoo-team-img div {
+  width: 22.4rem;
+  height: 33.5rem;
+  padding: 0;
+  margin: 0;
+}
+
+.boodoo-text {
+  font-size: 14rem;
+  font-weight: bold;
+  padding-top: 11.5rem;
+  color: var(--secondary-color);
+}
+/***************End******************/
+
+/***********service start*************/
+#services {
+  padding-top: 10rem;
+  background-image: linear-gradient(
+    0deg,
+    #000000 80%,
+    var(--primary-color) 200%
+  );
+  border: none;
+}
+
+#services .about-title,
+#services .main-title {
+  text-align: center;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+.service-card {
+  border: 2px solid white;
+  padding: 5rem 6rem;
+  margin: 7.5rem;
+}
+
+.service-card img {
+  width: 100%;
+  height: 32.4rem;
+}
+
+.service-card h5 {
+  margin: 5rem 0 2rem 0;
+  font-size: 4.4rem;
+  font-weight: bold;
+  color: var(--secondary-color);
+}
+
+.service-card p {
+  font-size: 1.8rem;
+  color: var(--secondary-color);
+}
+
+/***************End******************/
+
+/***************Why section******************/
+#why {
+  padding-top: 10rem;
+  background-image: linear-gradient(#000000 80%, var(--primary-color) 200%);
+}
+
+#why .about-title,
+#why .main-title {
+  text-align: center;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+.why-row {
+  margin-top: 17.2rem;
+}
+.why-card {
+  text-align: center;
+  /* margin: 17.2rem 5.5rem 0; */
+}
+.why-card h4 {
+  font-size: 3.2rem;
+  font-weight: bold;
+  margin: 5rem 0;
+  color: var(--secondary-color);
+}
+.why-card p {
+  font-size: 1.8rem;
+  color: var(--secondary-color);
+}
+.why-col {
+  padding: 0 5.5rem;
+}
+
+.why-row .why-col:first-child {
+  padding-left: 0 !important;
+  padding-right: 5.5rem;
+}
+
+.why-row .why-col:last-child {
+  padding-right: 0 !important;
+  padding-left: 5.5rem;
+}
+
+/***************End******************/
+/*******horoscope section************/
+#horoscope {
+  padding-top: 10rem;
+  background-image: linear-gradient(
+    0deg,
+    #000000 80%,
+    var(--primary-color) 200%
+  );
+}
+
+#horoscope .about-title,
+#horoscope .main-title {
+  text-align: center;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+.horoscope-col {
+  display: flex;
+  justify-content: space-between;
+  /* column-gap: 5rem; */
+}
+
+.horoscope-content {
+  /* margin-left: 4rem; */
+  /* padding: auto 0;   */
+  margin: auto 0;
+}
+
+.horoscope-col img {
+  width: 16rem;
+  height: 16rem;
+  margin-right: 4rem;
+}
+
+.horoscope-content h4 {
+  font-size: 5.4rem;
+  font-weight: bold;
+  color: var(--secondary-color);
+  margin-bottom: 1rem;
+}
+
+.horoscope-content p {
+  color: var(--secondary-color);
+  font-size: 1.8rem;
+}
+
+.horoscope-row {
+  margin-top: 10rem;
+}
+
+.horoscope-row .horoscope-col {
+  margin-right: auto;
+}
+
+.horoscope-row-2 {
+  margin-top: 10rem;
+  justify-content: end;
+}
+
+.horoscope-row-2 .horoscope-col {
+  margin-left: auto;
+}
+
+.button-div {
+  margin-top: 11.5rem;
+  text-align: center;
+}
+
+.horoscope-count {
+  margin-top: 20rem;
+}
+
+.horoscope-count h1 {
+  text-align: center;
+  color: var(--secondary-color);
+  font-size: 10rem;
+}
+
+/***************End******************/
+
+/*************appoinment**************/
+#appoinment {
+  padding-top: 10rem;
+  background-image: linear-gradient(#000000 80%, var(--primary-color) 200%);
+}
+
+.appo-row {
+  align-items: center;
+}
+
+#appoinment .about-title {
+  text-transform: uppercase;
+}
+
+.form-col {
+  height: 17.4rem;  
+}
+
+.buttonDiv {
+  text-align: center;
+}
+
+.form-row {
+  row-gap: 5rem;
+  column-gap: 5rem;
+}
+
+.form-row label {
+  color: var(--secondary-color);
+  font-size: 3.2rem;
+  font-weight: bold;
+}
+
+.form-row input,
+.form-row select {
+  height: 10rem;
+  background: transparent;
+  font-size: 2.4rem;
+  box-sizing: border-box;
+  border: 2px solid white;
+  color: var(--secondary-color);
+  padding-left: 3rem;
+}
+
+.form-row input::placeholder {
+  color: var(--secondary-color);
+  opacity: 1; /* Firefox */
+}
+
+.form-row option {
+  color: var(--secondary-color);
+  font-size: 2.4rem;
+}
+
+.form-row option::before {
+  background: transparent;
+}
+
+/***************End******************/
+
+/***********membership**********/
+#membership {
+  position: relative;
+  z-index: 999;
+  height: 50rem;
+  padding: 10rem 0;
+  background-image: linear-gradient(
+    0deg,
+    #000000 80%,
+    var(--primary-color) 200%
+  );
+}
+
+#membership div {
+  text-align: center;
+}
+
+#membership .main-title {
+  width: 100%;
+  text-align: center;
+}
+
+#membership .button-div {
+  margin-top: 7rem;
+}
+
+#membership p {
+  color: var(--secondary-color);
+  font-size: 1.8rem;
+}
+
+#membership::before {
+  content: "";
+  background-image: url(../image/hero-banner.png);
+  inset: 0;
+  background-size: 80% auto;
+  background-position: center center;
+  opacity: 0.2;
+  position: absolute;
+  background-repeat: no-repeat;
+}
+/*************End**************/
+/*************membership price**************/
+#membership-price {
+  padding-top: 20rem;
+  background-image: linear-gradient(#000000 80%, var(--primary-color) 200%);
+}
+
+#membership-price .main-title,
+#membership-price .about-title {
+  text-align: center;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+.membercard-row {
+  justify-content: center;
+  margin: 8rem -5rem 0;
+}
+
+.membercard-col {
+  height: 70.6rem;
+  /* width: 46.6rem; */
+  color: var(--secondary-color);
+  border: 2px solid white;
+  margin: 0 5rem;
+  padding: 6rem;
+}
+
+.membercard-col h2 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.membercard-col h1 {
+  font-size: 7.2rem;
+  font-weight: bold;
+  margin: 3rem 0;
+}
+
+.membercard-col h1 span {
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.membercard-col p {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+.membercard-col .button-div {
+  margin-top: 8rem;
+}
+
+.membercard-row .membercard-col:hover {
+  background-color: var(--primary-color);
+  border: none;
+}
+
+.membercard-row .membercard-col:hover .button-div .button {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+/*************End**************/
+
+/************feddback************/
+#feedback {
+  padding-top: 20rem;
+  background-image: linear-gradient(
+    0deg,
+    #000000 80%,
+    var(--primary-color) 200%
+  );
+}
+
+.arrow-down {
+  text-align: center;
+  margin: 10rem auto;
+}
+
+#feedback .main-title {
+  font-size: 14rem;
+  line-height: 15rem;
+  width: 100%;
+  text-align: center;
+}
+
+#feedback .swiper {
+  width: 100%;
+  height: 100%;
+  padding: 7.9rem;
+}
+
+#feedback .swiper-slide {
+  padding: 0 10rem;
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#feedback .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 50rem;
+  object-fit: cover;
+}
+
+.feedback-desc {
+  position: relative;
+  text-align: left;
+  color: var(--secondary-color);
+  margin-top: 10.9rem;
+}
+
+.feedback-desc p {
+  font-size: 1.8rem;
+  line-height: 3rem;
+}
+
+.feedback-desc h4 {
+  margin-top: 5rem;
+  font-size: 2.4rem;
+}
+
+.feedback-desc::before {
+  content: "";
+  position: absolute;
+  top: -4.2rem;
+  left: -2.2rem;
+  background-image: url(../image/inverted-comma.png);
+  opacity: 0.2;
+  width: 10rem;
+  height: 10rem;
+  background-repeat: no-repeat;
+}
+
+#feedback .swiper-button-next,
+#feedback .swiper-button-prev {
+  color: var(--secondary-color);
+}
+
+/*************End**************/
+/*************blog**************/
+#blog {
+  padding-top: 20rem;
+  background-image: linear-gradient(#000000 80%, var(--primary-color) 200%);
+}
+
+#blog .main-title,
+#blog .about-title {
+  text-align: center;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+.blog-row {
+  margin-top: 8rem;
+}
+
+.blog-col img {
+  height: 45rem;
+  width: 100%;
+}
+
+.blog-col h4 {
+  margin: 6rem 0 2rem;
+  width: 70%;
+  color: var(--secondary-color);
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.blog-col p {
+  font-size: 1.8rem;
+  color: var(--secondary-color);
+}
+
+/*************End**************/
+/*************footer**************/
+footer {
+  padding-top: 20rem;
+  background-image: linear-gradient(
+    0deg,
+    #000000 80%,
+    var(--primary-color) 200%
+  );
+  padding-bottom: 15.1rem;
+}
+
+footer .container {
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+}
+
+.footer-row {
+  justify-content: space-between;
+  color: var(--secondary-color);
+  padding: 8rem 0;
+}
+
+.footer-row h4 {
+  font-size: 3.2rem;
+  font-weight: bold;
+}
+
+.footer-col-1 img {
+  margin-bottom: 2rem;
+}
+
+.footer-col-1 p {
+  font-size: 1.8rem;
+  width: 50%;
+}
+
+footer ul,
+footer li {
+  font-size: 1.8rem;
+  padding: 0;
+  margin-top: 2rem;
+}
+
+.footer-col-4 li img {
+  margin-right: 2rem;
+}
+
+.footer-col-5 img {
+  height: 20rem;
+  margin-top: 2rem;
+}
+
+.copyRigth {
+  text-align: center;
+  font-size: 1.8rem;
+  color: var(--secondary-color);
+  margin-bottom: 4.5rem;
+}
+
+/* .footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4, .footer-col-5 {
+  
+} */
+/*************End**************/
+
+/***************media query******************/
+/* 0-575 none 1rem=8px */
+@media screen and (max-width: 575px) {
+  header {
+    top: 1rem;
+  }
+  section#hero {
+    height: 100vh;
+  }
+  html {
+    font-size: 50%;
+  }
+  .hero-title {
+    padding-top: 20rem;
+    font-size: 4.5rem;
+  }
+  .hero-title .hero-about {
+    margin: 1.3rem auto;
+    width: 100%;
+  }
+  .abt-details {
+    row-gap: 5rem;
+  }
+  .abt-details .main-title {
+    margin-bottom: 5rem;
+  }
+  .abt-details img {
+    padding-right: 0;
+    border-right: none;
+  }
+  .abt-details .about-image-txt {
+    margin: 2rem auto;
+    text-align: center;
+    height: auto;
+  }
+  .about-title {
+    text-align: center;
+  }
+  .main-title {
+    font-size: 4.5rem;
+    line-height: 5rem;
+    width: 100%;
+    text-align: center;
+  }
+  .abt-data {
+    padding-left: 0;
+  }
+  .button {
+    display: block;
+    margin: 0 auto;
+  }
+  #super-imagine {
+    padding-top: 10rem;
+  }
+  .super-header {
+    padding-top: 0;
+    text-align: center;
+    font-size: 9rem;
+  }
+  .super-text {
+    padding-top: 0rem;
+    text-align: center;
+    width: 100%;
+  }  
+  .boodoo-img-div {
+    margin-top: 5rem;
+    padding-left: 0;
+  }
+  .boodoo-team-img {
+    padding-left: 0;
+  }
+  .boodoo-team-img img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .boodoo-team-img div {
+    width: 50%;
+  }
+  .boodoo-text {
+    padding-top: 0rem;
+    text-align: center;
+    font-size: 9rem;
+  }
+  .service-card {
+    margin: 2.5rem auto;
+    padding: 2.5rem auto;
+  }
+
+  .why-row {
+    justify-content: center;
+    row-gap: 3rem;
+    margin-top: 10rem;
+  }
+
+  .why-row .why-col:first-child {
+    padding-left: 0 !important;
+    padding-right: 0rem;
+  }
+
+  .why-row .why-col:last-child {
+    padding-right: 0 !important;
+    padding-left: 0rem;
+  }
+
+  .horoscope-col {
+    justify-content: center;
+  }
+  .horoscope-row {
+    margin-top: 5rem;
+    row-gap: 5rem;
+  }
+  .horoscope-row-2 {
+    margin-top: 5rem;
+    row-gap: 5rem;
+  }
+
+  #horoscope .main-title {
+    font-size: 4.5rem;
+    line-height: 5rem;
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+  }
+  .horoscope-col h4 {
+    font-size: 4.5rem;
+  }
+
+  .horoscope-count-row {
+    row-gap: 5rem;
+  }
+
+  .appo-row{
+    row-gap: 5rem;
+  }
+
+  .membercard-row {
+    row-gap: 5rem;
+    margin: 8rem 0 0;
+  }
+
+  .membercard-col {
+    margin: 0 3rem;
+    padding: 3rem 1rem;
+    /* text-align: center; */
+  }
+  .membercard-col img {
+    height: 4rem;
+    width: 4rem;
+  }
+
+  .membercard-col .button {
+    width: 25rem;
+  }
+
+  #feedback .main-title {
+    font-size: 6.5rem;
+    line-height: 10rem;
+  }
+
+  #feedback .swiper-slide {
+    padding: 0;
+  }
+
+  #feedback .swiper {
+    padding: 0;
+  }
+  .blog-row {
+    justify-content: center;
+    row-gap: 5rem;
+  }
+  .footer-row {
+    justify-content: center;
+    row-gap: 5rem;
+  }
+}
+
+/* 576-767 sm 1rem=8px */
+@media screen and (min-width: 576px) {
+  header {
+    top: 2rem;
+  }
+  html {
+    font-size: 50%;
+  }
+  section#hero {
+    height: 100vh;
+  }
+  .hero-title {
+    padding-top: 11rem;
+    font-size: 7rem;
+  }
+  .hero-title .hero-about {
+    margin: 1.5rem auto;
+    width: 64rem;
+  }
+  .abt-details {
+    row-gap: 5rem;
+  }
+  .abt-details .main-title {
+    margin-bottom: 5rem;
+  }
+  .abt-details img {
+    padding-right: 0;
+    border-right: none;
+  }
+  .abt-details .about-image-txt {
+    margin: 5rem auto 2.5rem;
+    text-align: center;
+  }
+  .about-title {
+    text-align: center;
+  }
+  .main-title {
+    font-size: 7.4rem;
+    line-height: 9rem;
+    width: 100%;
+    text-align: center;
+  }
+  .abt-data {
+    padding-left: 0;
+  }
+  .button {
+    display: block;
+    margin: 0 auto;
+  }
+  #super-imagine {
+    padding-top: 10rem;
+  }
+  .super-header {
+    padding-top: 0;
+    text-align: center;
+  }
+  .super-text {
+    padding-top: 0rem;
+    text-align: center;
+    width: 100%;
+  }  
+  .boodoo-img-div {
+    margin-top: 5rem;
+    padding-left: 0;
+  }
+  .boodoo-team-img {
+    padding-left: 0;
+  }
+  .boodoo-team-img img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .boodoo-team-img div {
+    width: 50%;
+  }
+  .boodoo-text {
+    padding-top: 5rem;
+    text-align: center;
+  }
+  .service-card {
+    margin: 2.5rem auto;
+    padding: 2.5rem auto;
+  }
+
+  .why-row {
+    justify-content: center;
+    row-gap: 3rem;
+    margin-top: 11rem;
+  }
+
+  .why-row .why-col:first-child {
+    padding-left: 0 !important;
+    padding-right: 0rem;
+  }
+
+  .why-row .why-col:last-child {
+    padding-right: 0 !important;
+    padding-left: 0rem;
+  }
+  .horoscope-col {
+    justify-content: center;
+  }
+  .horoscope-row {
+    margin-top: 5rem;
+    row-gap: 5rem;
+  }
+  .horoscope-row-2 {
+    margin-top: 5rem;
+    row-gap: 5rem;
+  }
+
+  .horoscope-count-row {
+    row-gap: 5rem;
+  }
+
+  .appo-row {
+    row-gap: 5rem;
+  }
+  .form-row {
+    justify-content: center;
+    row-gap: 3rem;
+    column-gap: 3rem;
+  }
+
+  .membercard-row {
+    row-gap: 5rem;
+  }
+
+  .membercard-row {
+    margin: 8rem 0 0;
+  }
+
+  .membercard-col {
+    margin: 0 6rem;
+  }
+
+  #feedback .swiper-slide {
+    padding: 0 9rem;
+  }
+
+  #feedback .swiper {
+    padding: 6.5rem;
+  }
+
+  .blog-row {
+    justify-content: center;
+    row-gap: 5rem;
+  }
+
+  .footer-row {
+    justify-content: center;
+    row-gap: 5rem;
+  }
+}
+
+/* 768-991 md 1rem=8px */
+@media screen and (min-width: 768px) {
+  .abt-img-row {
+    justify-content: center;
+  }
+  .hero-title {
+    padding-top: 12rem;
+    font-size: 8rem;
+  }
+  .hero-title .hero-about {
+    margin: 2rem auto;
+    width: 86rem;
+  }
+  .service-card {
+    padding: 2rem;
+    margin: 2rem;
+  }
+  .why-row {
+    margin-top: 14rem;
+  }
+
+  .why-row .why-col:first-child {
+    padding-left: 0 !important;
+    padding-right: 5.5rem;
+  }
+
+  .why-row .why-col:last-child {
+    padding-right: 0 !important;
+    padding-left: 5.5rem;
+  }
+
+  .membercard-row {
+    margin: 8rem -2rem 0;
+  }
+
+  .membercard-col {
+    margin: 0 1.5rem;
+  }
+
+  #feedback .swiper-slide {
+    padding: 0 10rem;
+  }
+}
+
+/* 992-1199 lg 1rem=8px */
+@media screen and (min-width: 992px) {
+  header {
+    top: 3rem;
+  }
+  .hero-title {
+    padding-top: 11rem;
+    font-size: 9rem;
+  }
+  .boodoo-team-img div {
+    width: 25%;
+  }
+  .why-row {
+    margin-top: 17.5rem;
+  }
+  /* .service-card {
+    padding: 5rem 6rem;
+    margin: 6rem;
+  } */
+  .service-card {
+    padding: 2rem;
+    margin: 2rem;
+  }
+  .form-row {
+    row-gap: 5rem;
+    column-gap: 5rem;
+  }
+  .footer-row {
+    justify-content: center;
+  }
+}
+
+/* 1200-1399 xl 1rem=9px */
+@media screen and (min-width: 1200px) {
+  html {
+    font-size: 56.25%;
+  }
+  .hero-title {
+    padding-top: 12rem;
+    font-size: 10rem;
+  }
+  .abt-details .main-title {
+    margin-bottom: 10rem;
+  }
+  .abt-details img {
+    height: 50.6rem;
+    padding-right: 11.5rem;
+    border-right: 2px white solid;
+  }
+  .abt-details .about-image-txt {
+    margin-left: 0;
+    text-align: left;
+  }
+  .about-title {
+    text-align: left;
+  }
+  .main-title {
+    font-size: 8.4rem;
+    line-height: 10rem;
+    width: 57rem;
+    text-align: left;
+  }
+  .abt-data {
+    padding-left: 9.5rem;
+  }
+  .button {
+    display: inline-block;
+    margin: 0;
+  }
+  .horoscope-col {
+    justify-content: space-between;
+  }
+  .horoscope-row {
+    margin-top: 10rem;
+  }
+  .horoscope-row-2 {
+    margin-top: 10rem;
+  }
+  .form-row {
+    row-gap: 5rem;
+    column-gap: 5rem;
+  }
+  .membercard-row {
+    margin: 8rem -2.5rem 0;
+  }
+  .membercard-col {
+    margin: 0 0.1rem;
+  }
+}
+
+/* 1400-1699 xxl 1rem=9px */
+@media screen and (min-width: 1400px) {
+  .abt-img-row {
+    justify-content: space-between;
+  }
+  #super-imagine {
+    padding-top: 10rem;
+  }
+  .super-header {
+    padding-top: 0;
+    text-align: left;
+  }
+  .super-text {
+    padding-top: 11.5rem;
+    text-align: left;
+    width: 48.5rem;
+  }
+  .boodoo-img-div {
+    margin-top: 0rem;
+    padding-left: 10rem;
+  }
+  .boodoo-team-img {
+    padding-left: 7rem;
+  }
+  .boodoo-team-img img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .boodoo-team-img div {
+    width: 25%;
+  }
+  .boodoo-text {
+    padding-top: 8.5rem;
+    text-align: left;
+    font-size: 12rem;
+  }
+  .service-card {
+    padding: 4rem 5rem;
+    margin: 5rem;
+  }
+  .membercard-row {
+    margin: 8rem -5rem 0;
+  }
+  .membercard-col {
+    margin: 0 3rem;
+  }
+  #feedback .swiper-slide {
+    padding: 10rem;
+  }
+}
+
+/* 1rem = 10px */
+@media screen and (min-width: 1700px) {
+  .container {
+    max-width: 160rem;
+  }
+
+  header {
+    top: 4rem;
+  }
+  .hero-title {
+    padding-top: 20rem;
+    font-size: 11rem;
+  }
+  .service-card {
+    padding: 5rem 6rem;
+    margin: 6rem;
+  }
+  .membercard-row {
+    margin: 8rem -5rem 0;
+  }
+  .membercard-col {
+    margin: 0 5rem;
+  }
+}
+/***************media query End******************/
